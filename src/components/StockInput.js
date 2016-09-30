@@ -64,7 +64,7 @@ export default class StockInput extends Component {
     return (
       <div className='text-center'>
         <h1>Saved Stocks</h1>
-        <table>
+        <table className='center table-hover table-bordered'>
           <thead>
             <tr>
               <th>Name</th>

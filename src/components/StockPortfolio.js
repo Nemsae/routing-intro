@@ -41,7 +41,8 @@ export default class StockPortfolio extends Component {
   }
 
   _refresh(symbol, id) {
-    
+    StockActions.grabDataWithSymbol(symbol);
+    StockActions.deleteStock(id);
   }
 
   render() {
@@ -60,8 +61,8 @@ export default class StockPortfolio extends Component {
               <h4 className='red'>Low: {stock.low}</h4>
             </div>
             <button className='btn btn-default' onClick={() => this._refresh(stock.symbol, stock.id)}>Refresh</button>
-            <button className='btn btn-default btn-danger' onClick={() => this._deleteStock(stock.id)}>X</button>
             <button className='btn btn-default btn-success' onClick={() => this._addFavorite(stock.symbol, stock.name)}>Add to Favorites</button>
+            <button className='btn btn-default btn-danger' onClick={() => this._deleteStock(stock.id)}>X</button>
           </div>
         )
       })

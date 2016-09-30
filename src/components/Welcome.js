@@ -69,7 +69,7 @@ export default class Welcome extends Component {
     }
 
     return (
-      <div>
+      <div className='text-center'>
         <h1 className='text-center'>Stock Lookup</h1>
         <input type="text" onChange={this._grabInput} placeholder='Search by name/symbol'/>
         <button onClick={this._sendInput}>Grab List</button>
