@@ -3,7 +3,6 @@ import uuid from 'uuid';
 
 import ServerActions from './actions/ServerActions';
 
-
 const API = {
 
   fetchData(symbol) {
