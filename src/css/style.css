@@ -1,0 +1,22 @@
+.green {
+ color: green;
+}
+
+.red {
+  color: red;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.blue {
+  color: blue;
+}
+
+.inline {
+  display: inline-block;
+  margin: 25px;
+  border: 2px solid black;
+  padding: 15px;
+}
