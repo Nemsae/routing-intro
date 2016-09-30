@@ -11,11 +11,11 @@ import Welcome from './components/Welcome'
 render(
   <Router history={browserHistory}>
 
-    <Route path='/' component={Layout}>
+    <Route path='/routing-intro/' component={Layout}>
 
-      <Route path='/welcome' component={Welcome}></Route>
-      <Route path='/stockinput' component={StockInput}></Route>
-      <Route path='/stockportfolio' component={StockPortfolio}></Route>
+      <Route path='/routing-intro/welcome' component={Welcome}></Route>
+      <Route path='/routing-intro/stockinput' component={StockInput}></Route>
+      <Route path='/routing-intro/stockportfolio' component={StockPortfolio}></Route>
     </Route>
 
   </Router>,
