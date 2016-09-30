@@ -14,17 +14,17 @@ export default class Layout extends Component {
 
         <ul>
           <li>
-            <Link className='btn btn-default' to='/welcome'>
+            <Link className='btn btn-default' to='/routing-intro/welcome'>
             Stock Lookup
             </Link>
           </li>
           <li>
-            <Link className='btn btn-default' to='/stockinput'>
+            <Link className='btn btn-default' to='/routing-intro/stockinput'>
               Add Stock by Symbol
             </Link>
           </li>
           <li>
-            <Link className='btn btn-default' to='/stockportfolio'>
+            <Link className='btn btn-default' to='/routing-intro/stockportfolio'>
               Stock Portfolio
             </Link>
           </li>
